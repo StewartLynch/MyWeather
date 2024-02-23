@@ -1,10 +1,10 @@
-## V1-WeatherKit - Introduction and CurrentWeather
+## V2-WeatherKit - Location Manager and Current Location
 
 ![MyWeather](Images/MyWeather.png)This repository contains the source code for the entire series on WeatherKit with SwiftData integration.
 
 Each video in the series has its own branch so if you have not started from the beginning, make sure that you clone or download the correct branch for the video.
 
-This is the branch for the completed code for the first video. 
+This is the branch for the completed code for the second video in the series. 
 
 
 
