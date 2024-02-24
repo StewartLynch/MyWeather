@@ -56,6 +56,11 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         return name ?? ""
     }
     
+    func getTimezone(for location: CLLocation) async -> TimeZone {
+        let timezone = try? await CLGeocoder().reverseGeocodeLocation(location).first?.timeZone
+        return timezone ?? .current
+    }
+    
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         switch manager.authorizationStatus {
         case .authorizedAlways, .authorizedWhenInUse:
