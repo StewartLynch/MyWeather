@@ -1,10 +1,10 @@
-## V3-WeatherKit - Conditions Backgrounds and Cities list
+## V4-WeatherKit - ListRow Detail and Hourly Forecast
 
 ![MyWeather](Images/MyWeather.png)This repository contains the source code for the entire series on WeatherKit with SwiftData integration.
 
 Each video in the series has its own branch so if you have not started from the beginning, make sure that you clone or download the correct branch for the video.
 
-This is the branch for the completed code for the third video in the series. 
+This is the branch for the completed code for the fourth video in the series. 
 
 
 
