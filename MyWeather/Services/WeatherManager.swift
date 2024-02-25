@@ -46,6 +46,17 @@ class WeatherManager {
         return hourlyForecast
     }
     
+    func dailyForecast(for location: CLLocation) async -> Forecast<DayWeather>? {
+        let dailyForecast = await Task.detached(priority: .userInitiated) {
+            let forecast = try? await self.service.weather(
+                for: location,
+                including: .daily
+            )
+            return forecast
+        }.value
+        return dailyForecast
+    }
+    
     func weatherAttribution() async -> WeatherAttribution? {
         let attribution = await Task(priority: .userInitiated) {
             return try? await self.service.attribution

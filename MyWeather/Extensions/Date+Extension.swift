@@ -28,4 +28,11 @@ extension Date {
         dateFormatter.timeZone = timezone
         return dateFormatter.string(from: self)
     }
+    
+    func localWeekDay(for timezone: TimeZone) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "E"
+        dateFormatter.timeZone = timezone
+        return dateFormatter.string(from: self)
+    }
 }
