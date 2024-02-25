@@ -46,6 +46,7 @@ struct HourlyForecastView: View {
             .frame(height: 100)
         }
         .contentMargins(.all, 15, for: .scrollContent)
+        .background(RoundedRectangle(cornerRadius: 20).fill(Color.secondary.opacity(0.2)))
     }
 }
 
