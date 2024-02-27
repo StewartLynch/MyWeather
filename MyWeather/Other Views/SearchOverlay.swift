@@ -41,6 +41,7 @@ struct SearchOverlay: View {
                 List(searchService.cities) { city in
                     Button {
                         store.cities.append(city)
+                        store.saveCities()
                         isSearching = false
                     } label: {
                         Text(city.name)

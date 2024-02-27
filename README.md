@@ -1,10 +1,10 @@
-## V6-WeatherKit - Adding Cities with SearchService
+## V7-WeatherKit - Data Persistence and App Icon
 
 ![MyWeather](Images/MyWeather.png)This repository contains the source code for the entire series on WeatherKit with SwiftData integration.
 
 Each video in the series has its own branch so if you have not started from the beginning, make sure that you clone or download the correct branch for the video.
 
-This is the branch for the completed code for the 6th video in the series. 
+This is the branch for the completed code for the 7th and final video in the series. 
 
 
 

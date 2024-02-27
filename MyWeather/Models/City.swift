@@ -13,7 +13,7 @@
 import Foundation
 import CoreLocation
 
-struct City: Identifiable, Hashable {
+struct City: Identifiable, Hashable, Codable {
     var id = UUID()
     var name: String
     var latitude: Double
