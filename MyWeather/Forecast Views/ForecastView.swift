@@ -139,6 +139,6 @@ struct ForecastView: View {
 
 #Preview {
     ForecastView()
-    
         .environment(LocationManager())
+        .environment(DataStore(forPreviews: true))
 }

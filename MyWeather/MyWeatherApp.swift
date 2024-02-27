@@ -15,6 +15,7 @@ import SwiftUI
 @main
 struct MyWeatherApp: App {
     @State private var locationManager = LocationManager()
+    @State private var store = DataStore()
     var body: some Scene {
         WindowGroup {
             if locationManager.isAuthorized {
@@ -24,5 +25,6 @@ struct MyWeatherApp: App {
             }
         }
         .environment(locationManager)
+        .environment(store)
     }
 }
