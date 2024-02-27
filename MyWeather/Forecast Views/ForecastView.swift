@@ -35,7 +35,7 @@ struct ForecastView: View {
     }
     
     var lowTemperature: String? {
-        if let low = hourlyForecast?.map({$0.temperature}).max() {
+        if let low = hourlyForecast?.map({$0.temperature}).min() {
             return weatherManager.temperatureFormatter.string(from: low)
         } else {
             return nil
