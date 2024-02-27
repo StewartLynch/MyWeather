@@ -1,4 +1,4 @@
-## V4-WeatherKit - Daily Forecast
+## V5-WeatherKit - Daily Forecast
 
 ![MyWeather](Images/MyWeather.png)This repository contains the source code for the entire series on WeatherKit with SwiftData integration.
 
