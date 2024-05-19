@@ -6,7 +6,9 @@ Each video in the series has its own branch so if you have not started from the 
 
 This is the branch for the completed code for the first video. 
 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=8qz1LxtM7aI
+" target="_blank"><img src="http://img.youtube.com/vi/8qz1LxtM7aI/0.jpg" 
+alt="Introduction and Current Weather" width="480" height="360" border="1" /></a>
 
 If you want to support my work, you can - </br>
 
