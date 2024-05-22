@@ -6,9 +6,10 @@ Each video in the series has its own branch so if you have not started from the 
 
 This is the branch for the completed code for the second video in the series. 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Locatuib Manager and Current Location
-" target="_blank"><img src="http://img.youtube.com/vi/Locatuib Manager and Current Location/0.jpg" 
-alt="bl_0hNyoeWs" width="480" height="360" border="1" /></a>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=bl_0hNyoeWs
+" target="_blank"><img src="http://img.youtube.com/vi/oCJRZJ_Kb4s/0.jpg" 
+alt="Location Manager and Current Location" width="480" height="360" border="1" /></a>
 
 If you want to support my work, you can - </br>
 
