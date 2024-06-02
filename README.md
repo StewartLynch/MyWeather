@@ -6,7 +6,9 @@ Each video in the series has its own branch so if you have not started from the 
 
 This is the branch for the completed code for the 6th video in the series. 
 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=puelrPxXj-8
+" target="_blank"><img src="http://img.youtube.com/vi/puelrPxXj-8/0.jpg" 
+alt="Adding Cities with search service" width="480" height="360" border="1" /></a>
 
 If you want to support my work, you can - </br>
 
